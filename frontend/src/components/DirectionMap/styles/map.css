@@ -1,0 +1,20 @@
+.mapWrapper {
+    width: 1340px;
+    height: 100vh;
+  }
+
+  .Incenter{
+   /* display: flex; */
+   justify-content: center;
+   margin-top: 50px;
+   width:1400px;
+   padding: 30px;
+   border-radius: 30px;
+   background-color: white;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.Location_form{
+   display:flex;
+  justify-content: center; 
+  margin:auto;
+}
