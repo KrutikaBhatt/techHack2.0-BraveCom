@@ -29,7 +29,6 @@ navigator.mediaDevices.getUserMedia({
       console.log(userId);
       connectToNewUser(userId, stream)
   })
-  // input value
   let text = $("input");
   // when press enter send message
   $('html').keydown(function (e) {
