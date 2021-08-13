@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+  
+}
+body {
+  margin: 0;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+}
+
+.container2 {
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
