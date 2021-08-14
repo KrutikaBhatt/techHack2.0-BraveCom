@@ -1,7 +1,9 @@
 import React from 'react';
-
+import View1 from '../Home/View1/View1';
 const Home = () => {
   return (
+    <>
+    <View1 />
     <div
       style={{
         display: 'flex',
@@ -12,6 +14,7 @@ const Home = () => {
     >
       <h1>Home</h1>
     </div>
+    </>
   );
 };
 

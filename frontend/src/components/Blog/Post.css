@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap");
+body {
+  color: rgb(94, 76, 76);
+  background-image: url("https://wallpapercave.com/wp/wp7392083.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+.post {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 1000px;
+  height: 400px;
+  margin-top: 25px;
+}
+.font {
+  font-family: "MonteCarlo", cursive;
+}
+ul li {
+  list-style-type: none;
+  display: inline;
+}
+.photo {
+  height: 350px;
+  width: 425px;
+  border-radius: 50%;
+  display: ruby;
+}
+.container {
+  max-width: 1000px;
+}
+
+.post_title {
+  font-size: 1em;
+  margin-top: 10px;
+  text-align: center;
+}
+.post_button {
+  position: static;
+  display: inline-block;
+  margin-left: 20px;
+  align-items: center;
+}
+.buttons {
+  position: absolute;
+  display: flex;
+
+  bottom: 5;
+}
+.post_body {
+  margin: 5px;
+  white-space: pre-wrap;
+  text-align: center;
+}
+.post_list {
+  display: flex;
+  align-items: right;
+}
+.post_category {
+  text-align: center;
+}
+.post_datestamp {
+  text-align: center;
+}
+.jumbotron {
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
