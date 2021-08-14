@@ -18,6 +18,9 @@ const UserSchema = mongoose.Schema({
         type:String,
         required:true,
     },
+    longLat:{
+        type:[String]
+    },
     care_groupID:{
         type:String,
         required:false,

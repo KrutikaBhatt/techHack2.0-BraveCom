@@ -16,6 +16,8 @@ const { v4: uuidV4 } = require('uuid')
 
 // APIs
 const blogRoutes = require('./routes/Blog');
+const eventsRoutes = require('./routes/Events');
+const useroutes = require('./routes/User');
 
 app.use(bodyParser.json())
 sanitizeString = (str) => {
@@ -32,6 +34,8 @@ app.get('/',(req,res)=>{
 })
 
 app.use('/blog',blogRoutes);
+app.use('/event',eventsRoutes);
+app.use('/user',useroutes);
 connections = {}
 messages = {}
 timeOnline = {}

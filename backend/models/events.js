@@ -21,8 +21,11 @@ const EventSchema = mongoose.Schema({
     Location :{
         type: String,
     },
+    LongLat :{
+        type:[String],
+    },
     registered:{
-        type:Integer,
+        type:Number,
         default: 0,
     },
 });
