@@ -97,11 +97,10 @@ a[data-toggle="collapse"] {
 
 .nav-link {
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 21px;
   text-transform: uppercase;
   text-decoration: none;
   color: #031d44;
-  margin-bottom: 3px;
   padding: 20px 0px;
   margin: 0px 20px;
   display: inline-block;
@@ -111,11 +110,11 @@ a[data-toggle="collapse"] {
 
 .nav-link:hover {
   opacity: 1;
+  padding-bottom: 0.9rem;
 }
 
 .nav-link::before {
   transition: 300ms;
-  width :15px;
   height: 5px;
   content: "";
   position: absolute;
@@ -128,7 +127,7 @@ a[data-toggle="collapse"] {
 }
 
 .nav-link-ltr:hover::before {
-  width: 100%;
+  width: 73%;
 }
 
 .scroll {
