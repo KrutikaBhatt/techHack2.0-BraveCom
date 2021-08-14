@@ -57,7 +57,7 @@ function countYes(arr,n)
 }
 const createGroups = async(req,res)=>{
     const id = req.body.id;
-    const answer = req.body.answer;
+    const answer = req.body.answer;  
 
     if(!mongoose.Types.ObjectId.isValid(id)){
         return res.status(404).send('No User available with that id');
