@@ -11,14 +11,17 @@ import MapPages from './pages/map';
 import Video from './components/VideoChat';
 import JoinMeet from './components/JoinMeet';
 import DirectionMap from './components/DirectionMap';
+import Rrouter from './components/Blog/Router';
+import Survey from './components/Survey/Survey'
 function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
+        <Route path='/blog' component={Rrouter} />
         <Route path='/about' component={About} />
-        <Route path='/services' component={Services} />
+        <Route path='/survey' component={Survey} />
         <Route path='/contact-us' component={Contact} />
         <Route path='/sign-up' component={SignUp} />
         <Route path ='/Map' component={MapPages} />
@@ -28,6 +31,6 @@ function App() {
       </Switch>
     </Router>
   );
-}
 
+  }
 export default App;
