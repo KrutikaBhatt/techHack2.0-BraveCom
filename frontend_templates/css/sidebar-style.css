@@ -24,7 +24,7 @@ a:focus {
 #sidebar {
   min-width: 250px;
   max-width: 250px;
-  background: #866ec7;
+  background: #6c4186;
   color: #fff;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -167,13 +167,10 @@ a[data-toggle="collapse"] {
 
 .navbar {
   border-bottom: 1px solid #bbbbbb;
-  background-color: #e4ddf4;
+  background-color: #C490E4;
   z-index: 1;
 }
 
-.nav-inside {
-  align-content: center;
-}
 
 .nav-link {
   font-weight: bold;
