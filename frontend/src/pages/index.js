@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import View1 from '../Home/View1/View1';
 import View2 from '../Home/View2/View2';
 import View3 from '../Home/View3/View3';
-
+import Jumbotron from '../components/navigation/jumbotron'
+import Footer from '../components/navigation/footer'
 const Home = () => {
 
   const [curViewState, setCurViewState] = useState(1);
@@ -20,6 +21,8 @@ const Home = () => {
     if(curViewState ==1){
       return(
         <>
+        <View1 incrementCurView = {goNext}/>
+        
         <a className="carousel-control-prev" style ={{color:'black',padding: 15, fontSize: 60,fontWeight:'bolder'}} role="button" data-slide="prev" onClick={previous}>
           <span className="carousel-control-prev-icon bx bx-chevron-left" style ={{color:'black'}} aria-hidden="true"></span>
           <span className="sr-only">Previous</span>
@@ -29,7 +32,6 @@ const Home = () => {
           <span className="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
           <span className="sr-only">Next</span>
         </a>
-        <View1 incrementCurView = {goNext}/>
         </>
       )
     }
