@@ -1,0 +1,32 @@
+.step1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.stepState{
+    display: flex;
+    margin: 10px;
+
+}
+.blankCircle{
+    width: 25px;
+    height: 25px;
+    background-color: #CFD5D5;
+    border-radius: 50%;
+    margin: 5px;
+}
+.continueBtn{
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width:8rem;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
