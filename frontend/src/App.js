@@ -13,12 +13,17 @@ import JoinMeet from './components/JoinMeet';
 import DirectionMap from './components/DirectionMap';
 import Rrouter from './components/Blog/Router';
 import Survey from './components/Survey/Survey'
+import Background from "./Background"
+import EventTable from "./components/EventsTable/index";
 function App() {
   return (
+    
     <Router>
+      <Background/>
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
+        <Route path='/event' exact component={EventTable} />
         <Route path='/blog' component={Rrouter} />
         <Route path='/about' component={About} />
         <Route path='/survey' component={Survey} />

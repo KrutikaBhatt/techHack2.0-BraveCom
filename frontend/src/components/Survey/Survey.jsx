@@ -3,7 +3,8 @@ import './Survey.scss';
 export default function Survey(){
   return(<div>
 <main id="main" class="container">
-    <h1 id="title" class="title">
+  <div class="shadow p-6 mb-2 bg-beige rounded">
+  <h1 id="title" class="title">
       Questionnaire
     </h1>
     <section class="content">
@@ -100,6 +101,9 @@ export default function Survey(){
         <button id="submit" type="submit" class="btn">Submit</button>
       </form>
     </section>
+    
+  </div>
+    
   </main>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 

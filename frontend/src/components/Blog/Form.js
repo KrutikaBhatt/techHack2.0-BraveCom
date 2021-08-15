@@ -33,7 +33,7 @@ class Form extends Component {
             <img src={blogimg} alt='logo' className="photo" />
                 
                 <div>
-                    <legend className="text-center">Create New Post</legend>
+                    <legend className="text-center"><p className="line-1 anim-typewriter">Create a new post!</p></legend>
  
                 <div className="form-group">
                     <label>What do you feel like writing about today?</label>
