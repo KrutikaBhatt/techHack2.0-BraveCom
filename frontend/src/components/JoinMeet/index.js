@@ -38,7 +38,7 @@ class JoinMeet extends Component {
 					<Button variant="contained" color="primary" onClick={this.join} style={{ margin: "20px", background: "pink", color:"black" }}>Go</Button>
 				</div>
 			</div>
-		
+			
 		)
 	}
 }
