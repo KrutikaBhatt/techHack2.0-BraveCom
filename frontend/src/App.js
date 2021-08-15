@@ -17,6 +17,7 @@ import Survey from './components/Survey/Survey'
 import Background from "./Background"
 import EventTable from "./components/EventsTable/index";
 import ViewEvent from './ViewEvent';
+import EventForm from './components/EventForm/index';
 function App() {
   return (
     
@@ -26,6 +27,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/event' exact component={EventTable} />
+        <Route path='/eventf' exact component={EventForm} />
         <Route path='/blog' component={Rrouter} />
         <Route path='/group' component={Groups} />
         <Route path='/about' component={About} />

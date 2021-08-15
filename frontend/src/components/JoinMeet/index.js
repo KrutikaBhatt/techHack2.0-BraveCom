@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Input, Button, IconButton } from '@material-ui/core';
 import "./styles/joinmeet.css"
+import pinkimage from "../../images/pink_rice.png"
 
 class JoinMeet extends Component {
   	constructor (props) {
@@ -25,6 +26,7 @@ class JoinMeet extends Component {
 	render() {
 		return (
 			
+				
 			<div className="container2">
 				
 				<div style={{
@@ -36,6 +38,7 @@ class JoinMeet extends Component {
 					<Button variant="contained" color="primary" onClick={this.join} style={{ margin: "20px", background: "pink", color:"black" }}>Go</Button>
 				</div>
 			</div>
+		
 		)
 	}
 }

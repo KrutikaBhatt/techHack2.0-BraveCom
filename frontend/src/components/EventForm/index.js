@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/eventform.css";
 
-export default function SideBar() {
+export default function EventForm() {
   const [email, setEmail] = React.useState("");
   const [name, setName] = React.useState("");
   const [ename, setEname] = React.useState("");

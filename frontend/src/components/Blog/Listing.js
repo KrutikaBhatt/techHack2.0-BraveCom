@@ -12,7 +12,7 @@ class Listing extends Component {
                     <Post
                         key={post}
                         info={this.props.posts[post]}
-                        deletePost={this.props.deletePost}
+                        
                     />
  
                 ) )}
