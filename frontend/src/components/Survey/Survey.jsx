@@ -99,7 +99,7 @@ export default function Survey(){
           </select>
         </div>
 
-        <button id="submit" type="submit" class="btn"><Link to='/group'>Submit</Link></button>
+        <Link to='/group'><button id="submit" type="submit" class="btn">Submit</button></Link>
       </form>
     </section>
     
