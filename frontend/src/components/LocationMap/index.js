@@ -166,7 +166,7 @@ axios.get(url).then(res => {
         </div>
         <div className ="MoveToRight">
           {/* <label className={styles.Continue}>Save</label> */}
-          <button onClick={updateLoc} className="Continue">Continue</button>
+          <button onClick={updateLoc} className="Continue">Save</button>
         </div>
       </div>
     </div>

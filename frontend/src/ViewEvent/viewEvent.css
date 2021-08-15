@@ -3,7 +3,7 @@
     flex-direction: column;
     position: absolute;
     width: calc(100vw - 100px);
-    height: calc(100vh - 170px);
+    height: calc(100vh - 20px);
     bottom:6rem;
     top:8.5rem;
     left :2.6rem;

@@ -33,8 +33,9 @@ class Post extends Component {
  
  
     render() {
-        const {id, title, body, datestamp} = this.props.info;
- 
+        const {id, title, message, date} = this.props.info;
+        console.log(this.props);
+        console.log("Title",title);
         return ( 
             <Paper className="post">
             <p className="post_title" cols="10">
@@ -45,12 +46,12 @@ class Post extends Component {
             <Divider light />
                 <p className="post_body">
                     <span className='post-preview'>
-                        {body.length > 300 ? `${body.substr(0, 300)}...` : body}
+                        {message.length > 300 ? `${message.substr(0, 300)}...` : message}
                     </span>
                 </p>
                 
                 <Divider light />
-                <p className="post_datestamp"><b>{moment(datestamp).fromNow()}</b></p>                
+                <p className="post_datestamp"><b>{moment(date).fromNow()}</b></p>                
                     <div className="post_button">
                         
                     </div>                   

@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/eventform.css";
+import Map from '../../components/LocationMap';
 
 export default function EventForm() {
   const [email, setEmail] = React.useState("");
@@ -96,14 +97,9 @@ export default function EventForm() {
                       required/>{" "}
                   </div>
                 </div>
-                <div class="row justify-content-end">
-                  <div class="form-group col-sm-6">
-                    {" "}
-                    <button type="submit" class="btn-block btn-primary">
-                      Submit
-                    </button>{" "}
-                  </div>
-                </div>
+
+                <Map/>
+                
               </form>
             </div>
           </div>

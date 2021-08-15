@@ -5,7 +5,8 @@ const Blog = require('../models/blogs');
 const router = express.Router();
 
 const createBlog = async(req,res)=>{
-    const post = req.body;
+    const post = req.body.post;
+    console.log(post);
     const newPost = new Blog(post);
     try {
         await newPost.save();

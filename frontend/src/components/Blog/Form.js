@@ -14,9 +14,9 @@ class Form extends Component {
         e.preventDefault();
  
         const post = {
-            author: this.authorRef.current.value,
+            user: this.authorRef.current.value,
             title: this.titleRef.current.value,
-            body: this.contentRef.current.value,
+            message: this.contentRef.current.value,
             
         }
  

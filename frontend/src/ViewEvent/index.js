@@ -40,7 +40,7 @@ function ViewEvent() {
                 </div>
                 <div style = {{fontWeight: "bold",fontSize:18, paddingTop: 35, paddingBottom: 8}}>Description</div>
                 <div className = "whoYoureHelpingCard" style = {{flex: 1,paddingTop:30,fontSize:18}}>This fundraiser is organized for helping out Old Age home in our neighboorhood locality. You can volunteer or donate for this event. Really lokking forward for great people
-                   <br/><br/><br/>
+                   <br/>
                    - Donate money<br />
                    - Visits will work too<br/>
                    - Buy  wollen cloths and embroidery<br/>

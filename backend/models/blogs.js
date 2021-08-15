@@ -11,7 +11,7 @@ const BlogSchema = mongoose.Schema({
         default:moment().format()
     },
     title :{
-        type:Date,
+        type:String,
         required:true
     },
     message :{

@@ -20,8 +20,9 @@ class Router extends Component {
     }
  
     getPost = () => {
-        axios.get(`https://jsonplaceholder.typicode.com/posts`)
+        axios.get(`http://localhost:4001/blog/getAll`)
              .then( res => {
+                 console.log(res);
                  this.setState({
                      posts: res.data
                  }) 
@@ -45,9 +46,10 @@ class Router extends Component {
     }
  
     createPost = (post) => {
-        axios.post(`https://jsonplaceholder.typicode.com/posts`, {post})
+        console.log(post);
+        axios.post(`http://localhost:4001/blog/add`, {post})
              .then(res => {
-                 if (res.status === 201) {
+                 if (res.status === 201 || res.status ==200) {
                     Swal.fire(
                         'Post Create',
                         'It is created correctly.',
