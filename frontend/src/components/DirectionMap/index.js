@@ -31,14 +31,11 @@ class DirectionMap extends Component {
     render() {
         return (
             <>
-            <div className="Location_form">
-                <div className="Incenter">
                     <div 
                         ref={el => (this.mapWrapper = el)} 
                         className="mapWrapper" 
                     />
-                </div>
-            </div>
+
           </>
         );
       }
