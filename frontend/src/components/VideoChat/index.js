@@ -516,8 +516,8 @@ class Video extends Component {
 							<div style={{ paddingTop: "20px" }}>
 								<Input value={window.location.href} disable="true"></Input>
 								<Button style={{backgroundColor: "pink",color: "black",marginLeft: "20px",
-									marginTop: "10px",width: "120px",fontSize: "10px"
-								}} onClick={this.copyUrl}>Copy invite link</Button>
+									marginTop: "10px",width: "120px",fontSize: "6px"
+								}} onClick={this.copyUrl}>Copy</Button>
 							</div>
 
 							<Row id="main" className="flex-container" style={{ margin: 0, padding: 0 }}>

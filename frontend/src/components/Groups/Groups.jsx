@@ -34,7 +34,7 @@ export default function Groups(){
                         <article class="box">
                             <figure> <a href="#" class="hover-effect popup-gallery"><img width="270" height="160" alt="" src={dep1} draggable="false"/></a> </figure>
                             <div class="details"> <span class="price"><small></small></span>
-                                <h4 class="box-title">Violence<small>Mumbai</small></h4>
+                                <h4 class="box-title">Safe Headspace<small>Mumbai</small></h4>
                                 <div class="feedback">
                                     <div data-placement="bottom" data-toggle="tooltip" class="fa fa-user-circle" title="" data-original-title="4 stars"><span style={{width: "80%;"}} class="five-stars"></span></div> <span class="review">485 members</span>
                                 </div>
@@ -47,7 +47,7 @@ export default function Groups(){
                         <article class="box">
                             <figure> <a href="#" class="hover-effect popup-gallery"><img width="270" height="160" alt="" src={dep2} draggable="false"/></a> </figure>
                             <div class="details"> <span class="price"><small></small></span>
-                                <h4 class="box-title">Harassment<small>Mumbai</small></h4>
+                                <h4 class="box-title">Lessened Burdens<small>Mumbai</small></h4>
                                 <div class="feedback">
                                     <div data-placement="bottom" data-toggle="tooltip" class="fa fa-user-circle" title="" data-original-title="4 stars"><span style={{width: "80%"}} class=""></span></div> <span class="review">367 members</span>
                                 </div>
@@ -60,7 +60,7 @@ export default function Groups(){
                         <article class="box">
                             <figure> <a href="#" class="hover-effect popup-gallery"><img width="270" height="160" alt="" src={dep3} draggable="false"/></a> </figure>
                             <div class="details"> <span class="price"> <small></small> </span>
-                                <h4 class="box-title">Terrorism<small>Pune</small></h4>
+                                <h4 class="box-title">Positivity Brigade<small>Pune</small></h4>
                                 <div class="feedback">
                                     <div data-placement="bottom" data-toggle="tooltip" class="fa fa-user-circle" title="" data-original-title="4 stars"><span style={{width: "80%"}} class="five-stars"></span></div> <span class="review">270 members</span>
                                 </div>

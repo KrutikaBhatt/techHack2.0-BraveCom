@@ -1,87 +1,86 @@
-.thankyouVolunteerView{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: calc(100vw - 100px);
-    height: calc(100vh - 20px);
-    bottom:6rem;
-    top:8.5rem;
-    left :2.6rem;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    border: 1px solid rgb(194, 192, 192);
-    background-color: white;
-    padding: 50px;
+.thankyouVolunteerView {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: calc(100vw - 100px);
+  height: 120vh;
+  bottom: 6rem;
+  top: 8.5rem;
+  left: 2.6rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border: 1px solid rgb(194, 192, 192);
+  background-color: white;
+  padding: 50px;
 }
-.thankyouVolunteerViewBody{
-    display: flex;
-    margin-top: 50px;
-    flex: 1;
+.thankyouVolunteerViewBody {
+  display: flex;
+  margin-top: 50px;
+  flex: 1;
 }
-.thankyouVolunteerViewBodyLeft{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    flex: 1;
-    margin: 10px;
+.thankyouVolunteerViewBodyLeft {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+  margin: 10px;
 }
-.thankyouVolunteerViewBodyRight{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin: 10px;
+.thankyouVolunteerViewBodyRight {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 10px;
 }
-.whoYoureHelpingCard{
-    display: flex;
-    align-items: start;
-    background-color: #FFF8F1;
-    padding: 10px;
-    border-radius: 5px;
+.whoYoureHelpingCard {
+  display: flex;
+  align-items: start;
+  background-color: #fff8f1;
+  padding: 10px;
+  border-radius: 5px;
 }
-.thankyouVolunteerViewBodyRightHeader{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
-    font-size :15px;
+.thankyouVolunteerViewBodyRightHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  font-size: 15px;
 }
-.thankyouVolunteerViewMap{
-    flex: 1;
-}
-
-.GeneralInformation{
-    justify-content:flex-start;
-    display: block;
-    align-items: flex-start;
+.thankyouVolunteerViewMap {
+  flex: 1;
 }
 
-.EventVolunteerButtons{
-    display: flex;
-    padding-top: 15px;
+.GeneralInformation {
+  justify-content: flex-start;
+  display: block;
+  align-items: flex-start;
+}
 
+.EventVolunteerButtons {
+  display: flex;
+  padding-top: 15px;
 }
-.RegisterNow{
-    background-color:rgba(72, 6, 92, 0.596);
-    color: white;
-    cursor: pointer;
-    border-radius: .5vw;
-    padding: .4rem 1.7rem;
-    border-radius:.5vw;
-    font-size: 17px;
+.RegisterNow {
+  background-color: rgba(72, 6, 92, 0.596);
+  color: white;
+  cursor: pointer;
+  border-radius: 0.5vw;
+  padding: 0.4rem 1.7rem;
+  border-radius: 0.5vw;
+  font-size: 17px;
 }
-.Volunteer{
-    cursor: pointer;
-    margin-left: 20px;
-    color: rgb(19, 18, 18);
-    outline: none;
-    border: 2px solid rgb(29, 27, 27);
-    font-weight: 700;
-    border-radius: .5vw;
-    margin-right: 1rem;
-    font-family: inherit;
-    font-size: 17px;
-    padding: .4rem 1.7rem;
-    background-color:inherit;
+.Volunteer {
+  cursor: pointer;
+  margin-left: 20px;
+  color: rgb(19, 18, 18);
+  outline: none;
+  border: 2px solid rgb(29, 27, 27);
+  font-weight: 700;
+  border-radius: 0.5vw;
+  margin-right: 1rem;
+  font-family: inherit;
+  font-size: 17px;
+  padding: 0.4rem 1.7rem;
+  background-color: inherit;
 }
-.Volunteer:hover{
-    background-color:rgb(82, 81, 81);
-    color :white !important;
+.Volunteer:hover {
+  background-color: rgb(82, 81, 81);
+  color: white !important;
 }

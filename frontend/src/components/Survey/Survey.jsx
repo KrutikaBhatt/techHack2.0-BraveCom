@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './Survey.scss';
+import Swal from 'sweetalert2';
 import { Link } from 'react-router-dom';
 export default function Survey(){
+
   return(<div>
 <main id="main" class="container">
   <div class="shadow p-6 mb-2 bg-beige rounded">
@@ -99,14 +101,19 @@ export default function Survey(){
           </select>
         </div>
 
-        <Link to='/group'><button id="submit" type="submit" class="btn">Submit</button></Link>
+        <button id="submit" type="submit" class="btn"><p onClick={Swal.fire(
+                        'Sucess',
+                        'We recommend you to join our community Safe Headspace',
+                        
+                    )
+ }>Submit</p></button>
       </form>
     </section>
     
   </div>
     
   </main>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
 
   </div>
     

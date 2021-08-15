@@ -1,6 +1,7 @@
 import React from 'react';
 import './View3.css';
 import Therapy from '../../images/Therapy.jpg';
+import { Link } from 'react-router-dom';
 
 function View3(props) {
     return (
@@ -13,7 +14,7 @@ function View3(props) {
                 <div className = "blankCircle" style ={{backgroundColor: "#F58424"}}></div>
                 <div className = "blankCircle" style ={{backgroundColor: "#F58424"}}></div>
             </div>
-            <div className = "continueBtn" onClick = {props.incrementCurView}>Begin!</div>
+            <div className = "continueBtn" onClick = {props.incrementCurView}>Begin!<Link to='/group'></Link></div>
         </div>
     );
 }

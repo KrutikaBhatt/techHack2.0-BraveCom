@@ -51,7 +51,7 @@ class Router extends Component {
              .then(res => {
                  if (res.status === 201 || res.status ==200) {
                     Swal.fire(
-                        'Post Create',
+                        'Post Created',
                         'It is created correctly.',
                         'success'
                     )

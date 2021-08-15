@@ -25,15 +25,12 @@ function App() {
       <Background/>
       <Navbar />
       <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/event' exact component={EventTable} />
+        <Route exact path='/' exact component={Home} />
+        <Route exact path='/event' exact component={EventTable} />
         <Route path='/eventf' exact component={EventForm} />
         <Route path='/blog' component={Rrouter} />
         <Route path='/group' component={Groups} />
-        <Route path='/about' component={About} />
         <Route path='/survey' component={Survey} />
-        <Route path='/contact-us' component={Contact} />
-        <Route path='/sign-up' component={SignUp} />
         <Route path ='/Map' component={MapPages} />
         <Route path ='/Join' component ={JoinMeet} />
         <Route path ='/inspire/:url' component={Video} />

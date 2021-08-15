@@ -39,7 +39,7 @@ const Home = () => {
       return(
         <>
         <a class="carousel-control-prev" style ={{color:'black',padding: 15, fontSize: 60,fontWeight:'bolder'}} role="button" data-slide="prev" onClick={previous}>
-          <span class="carousel-control-prev-icon bx bx-chevron-left" style ={{color:'black'}} aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon bx bx-chevron-left" style ={{color:'black',height:20}} aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
 

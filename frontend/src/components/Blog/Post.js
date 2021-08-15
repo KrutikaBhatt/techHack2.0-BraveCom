@@ -33,7 +33,7 @@ class Post extends Component {
  
  
     render() {
-        const {id, title, message, date} = this.props.info;
+        const {id, title, message, date,user} = this.props.info;
         console.log(this.props);
         console.log("Title",title);
         return ( 
@@ -54,7 +54,7 @@ class Post extends Component {
                 
                 <Divider light />
                
-                <p className="post_datestamp"><p>Author: Riya Gori</p></p>          
+                <p className="post_datestamp"><p>Author: {user}</p></p>          
                   
                     <div className="post_button">
                         
