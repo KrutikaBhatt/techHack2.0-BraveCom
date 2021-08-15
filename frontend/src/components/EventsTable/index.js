@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from 'react';
 import './styles/eventTables.css';
-
+import { Link } from 'react-router-dom';
 import {BrowserRouter, Route, Switch , Redirect} from 'react-router-dom';
 import axios from 'axios';
 export default function EventTable(){
@@ -48,7 +48,7 @@ export default function EventTable(){
                                                 <div className="media align-items-center">
 
                                                     <div className="media-body">
-                                                        <span className="mb-0 text-sm">Fundraiser for Old Age Home repair</span>
+                                                        <span className="mb-0 text-sm"><Link to='/eventView'>Fundraiser for Old Age Home repair</Link></span>
                                                         <br />
                                                         <small> Krutika Bhatt </small>
                                                     </div>
@@ -68,7 +68,7 @@ export default function EventTable(){
                                                         <div className="media align-items-center">
 
                                                             <div className="media-body">
-                                                                <span className="mb-0 text-sm">Garbage cleanup for sideby Road</span>
+                                                                <span className="mb-0 text-sm"><Link to='/eventView'>Garbage cleanup for sideby Road</Link></span>
                                                                 <br />
                                                                 <small> Suresh agrawal </small>
                                                             </div>
@@ -86,7 +86,7 @@ export default function EventTable(){
                                                 <div className="media align-items-center">
 
                                                     <div className="media-body">
-                                                        <span className="mb-0 text-sm">Educate the nearby Slum areas</span>
+                                                        <span className="mb-0 text-sm"><Link to='/eventView'>Educate the nearby Slum areas</Link></span>
                                                         <br />
                                                         <small>Riya Gori</small>
                                                     </div>
@@ -106,7 +106,7 @@ export default function EventTable(){
                                                 <div className="media align-items-center">
 
                                                     <div className="media-body">
-                                                        <span className="mb-0 text-sm">Help with groceries and medicine</span>
+                                                        <span className="mb-0 text-sm"><Link to='/eventView'>Help with groceries and medicine</Link></span>
                                                         <br />
                                                         <small>Avni Shah </small>
                                                     </div>

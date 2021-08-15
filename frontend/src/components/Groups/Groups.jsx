@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import dep from "../../images/dep.jpg"
 import dep1 from "../../images/dep1.jpg"
 import dep2 from "../../images/dep2.jpg"
@@ -38,7 +39,7 @@ export default function Groups(){
                                     <div data-placement="bottom" data-toggle="tooltip" class="fa fa-user-circle" title="" data-original-title="4 stars"><span style={{width: "80%;"}} class="five-stars"></span></div> <span class="review">485 members</span>
                                 </div>
                                 <p class="description">Have you ever wtinessed or experienced violence? You are not alone. Join this community to seek help.</p>
-                                <div class="action"> <a class="button btn-small" href="#">JOIN</a> <a class="button btn-small yellow popup-map" href="#" data-box="40.463667, -3.749220">CREATE MEET</a> </div>
+                                <div class="action"> <a class="button btn-small" href="/join">JOIN</a> <a class="button btn-small yellow popup-map" href="/join" data-box="40.463667, -3.749220">CREATE MEET</a> </div>
                             </div>
                         </article>
                     </li>
@@ -51,7 +52,7 @@ export default function Groups(){
                                     <div data-placement="bottom" data-toggle="tooltip" class="fa fa-user-circle" title="" data-original-title="4 stars"><span style={{width: "80%"}} class=""></span></div> <span class="review">367 members</span>
                                 </div>
                                 <p class="description">Are you being harassed by an unknown or perhaps even a known person? Join this community and speak up.</p>
-                                <div class="action"> <a class="button btn-small" href="#">JOIN</a> <a class="button btn-small yellow popup-map" href="#" data-box="40.705631, -73.978003">CREATE MEET</a> </div>
+                                <div class="action"> <a class="button btn-small" href="/join">JOIN</a> <a class="button btn-small yellow popup-map"href="/join" data-box="40.705631, -73.978003">CREATE MEET</a> </div>
                             </div>
                         </article>
                     </li>
@@ -64,7 +65,7 @@ export default function Groups(){
                                     <div data-placement="bottom" data-toggle="tooltip" class="fa fa-user-circle" title="" data-original-title="4 stars"><span style={{width: "80%"}} class="five-stars"></span></div> <span class="review">270 members</span>
                                 </div>
                                 <p class="description">Struggling to cope up with anxiety after experiencing or witnessing acts or terrorism? Join us.</p>
-                                <div class="action"> <a class="button btn-small" href="#">JOIN</a> <a class="button btn-small yellow popup-map" href="#" data-box="48.856614, 2.352222">CREATE MEET</a> </div>
+                                <div class="action"> <a class="button btn-small" href="/join">JOIN</a> <a class="button btn-small yellow popup-map" href="/join" data-box="48.856614, 2.352222">CREATE MEET</a> </div>
                             </div>
                         </article>
                     </li>

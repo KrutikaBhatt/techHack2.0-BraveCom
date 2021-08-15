@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Survey.scss';
+import { Link } from 'react-router-dom';
 export default function Survey(){
   return(<div>
 <main id="main" class="container">
@@ -98,7 +99,7 @@ export default function Survey(){
           </select>
         </div>
 
-        <button id="submit" type="submit" class="btn">Submit</button>
+        <button id="submit" type="submit" class="btn"><Link to='/group'>Submit</Link></button>
       </form>
     </section>
     
