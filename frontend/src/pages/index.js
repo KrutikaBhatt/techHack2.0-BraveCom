@@ -21,17 +21,16 @@ const Home = () => {
     if(curViewState ==1){
       return(
         <>
-        <View1 incrementCurView = {goNext}/>
-        
-        <a className="carousel-control-prev" style ={{color:'black',padding: 15, fontSize: 60,fontWeight:'bolder'}} role="button" data-slide="prev" onClick={previous}>
-          <span className="carousel-control-prev-icon bx bx-chevron-left" style ={{color:'black'}} aria-hidden="true"></span>
-          <span className="sr-only">Previous</span>
+        <a className="carousel-control-prev" style ={{color:'black',padding: 15, fontSize: 60,fontWeight:'bolder'}} role="button" data-slide="prev">
+        <span className="carousel-control-prev-icon bx bx-chevron-left" style ={{color:'black'}} aria-hidden="true"></span>
+        <span className="sr-only">Previous</span>
         </a>
 
         <a className="carousel-control-next" style ={{color:'black', padding: 15, fontSize: 60}} role="button" data-slide="next" onClick={goNext}>
-          <span className="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
-          <span className="sr-only">Next</span>
+        <span className="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+        <span className="sr-only">Next</span>
         </a>
+        <View1 incrementCurView = {goNext}/>
         </>
       )
     }

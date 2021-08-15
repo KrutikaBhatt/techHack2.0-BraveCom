@@ -13,6 +13,7 @@ import JoinMeet from './components/JoinMeet';
 import DirectionMap from './components/DirectionMap';
 import Rrouter from './components/Blog/Router';
 import Survey from './components/Survey/Survey'
+import ViewEvent from './ViewEvent';
 function App() {
   return (
     <Router>
@@ -28,6 +29,7 @@ function App() {
         <Route path ='/Join' component ={JoinMeet} />
         <Route path ='/inspire/:url' component={Video} />
         <Route path='/directionMap'component={DirectionMap}/>
+        <Route path='/eventView' component={ViewEvent}/>
       </Switch>
     </Router>
   );
