@@ -143,6 +143,18 @@ a[data-toggle="collapse"] {
   display: none;
 }
 
+#sidebarCollapse {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  z-index: 3;
+}
+@media (max-width: 901px) {
+  #sidebarCollapse {
+    display: block;
+  }
+}
 
 
 /*--------------------------------------------------------------
