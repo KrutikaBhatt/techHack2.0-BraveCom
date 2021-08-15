@@ -39,19 +39,23 @@ class Post extends Component {
         return ( 
             <Paper className="post">
             <p className="post_title" cols="10">
+             
                 <b><span className='post-preview'>
                     {title.length > 25 ? `${title.substr(0, 25)}...` : title}
                 </span></b>
             </p>
             <Divider light />
                 <p className="post_body">
+                    
                     <span className='post-preview'>
                         {message.length > 300 ? `${message.substr(0, 300)}...` : message}
                     </span>
                 </p>
                 
                 <Divider light />
-                <p className="post_datestamp"><b>{moment(date).fromNow()}</b></p>                
+               
+                <p className="post_datestamp"><p>Author: Riya Gori</p></p>          
+                  
                     <div className="post_button">
                         
                     </div>                   

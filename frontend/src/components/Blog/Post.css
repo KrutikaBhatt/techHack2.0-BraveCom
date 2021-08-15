@@ -80,8 +80,9 @@ body {
 
 .post_title {
   font-size: 1em;
-  margin-top: 10px;
-  text-align: center;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 8%;
 }
 .post_button {
   position: static;
@@ -98,7 +99,8 @@ body {
 .post_body {
   margin: 5px;
   white-space: pre-wrap;
-  text-align: center;
+  text-align: left;
+  margin-left: 8%;
 }
 .post_list {
   display: flex;
@@ -108,7 +110,14 @@ body {
   text-align: center;
 }
 .post_datestamp {
-  text-align: center;
+  text-align: left;
+  width: 200 px;
+  margin-left: 8%;
+}
+.post_datestamp1 {
+  text-align: right;
+  margin-top: 0;
+  margin-right: 8%;
 }
 .jumbotron {
   -webkit-background-size: 100% 100%;
